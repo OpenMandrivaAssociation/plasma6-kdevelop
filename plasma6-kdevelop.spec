@@ -33,7 +33,6 @@ Source0:	https://invent.kde.org/kdevelop/kdevelop/-/archive/%{gitbranch}/kdevelo
 %else
 Source0:	https://download.kde.org/%([ "`echo %{version} |cut -d. -f3`" -ge 80 ] && echo -n un; echo -n stable)/release-service/%{version}/src/kdevelop-%{version}.tar.xz
 %endif
-Source1:	%{name}.rpmlintrc
 Patch1:		kdevplatform-5.0.3-bsdtar.patch
 Patch2:		kdevelop-23.03.90-clang16.patch
 BuildRequires:	qt5-assistant
