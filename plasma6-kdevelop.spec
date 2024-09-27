@@ -17,13 +17,13 @@
 %define dev_clang_major 60
 %define __requires_exclude /bin/zsh
 
-%define git 20240530
+%define git 20240927
 %define gitbranch work/apol/kf6
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Summary:	Integrated Development Environment for C++/C
 Name:		plasma6-kdevelop
-Version:	24.05.0
+Version:	24.08.0
 Release:	1
 Group:		Development/C++
 License:	GPLv2
@@ -142,7 +142,12 @@ KDevelop manages or provides:
 %{_libdir}/libKDevCMakeCommon.so.%{dev_clang_major}
 %{_libdir}/libKDevClangPrivate.so.%{dev_clang_major}
 %{_libdir}/libKDevCompileAnalyzerCommon.so.%{dev_clang_major}
-%{_libdir}/qt6/plugins/kdevplatform
+%{_libdir}/libKDevelopSessionsWatch.so
+%{_qtdir}/plugins/kdevplatform
+%{_qtdir}/plugins/kf6/krunner/kdevelopsessions.so
+%{_qtdir}/qml/org/kde/plasma/private/kdevelopsessions
+%{_datadir}/metainfo/org.kde.kdevelopsessions.appdata.xml
+%{_datadir}/plasma/plasmoids/org.kde.kdevelopsessions
 %{_datadir}/icons/hicolor/*/apps/kdevelop.png
 %{_datadir}/icons/hicolor/*/apps/kdevgh.png
 %{_datadir}/icons/hicolor/*/apps/cmake.png
