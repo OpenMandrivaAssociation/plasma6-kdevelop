@@ -27,7 +27,7 @@ Version:	24.08.0
 Release:	1
 Group:		Development/C++
 License:	GPLv2
-Url:		http://www.kdevelop.org/
+Url:		https://www.kdevelop.org/
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/kdevelop/kdevelop/-/archive/%{gitbranch}/kdevelop-%{gitbranchd}.tar.bz2#/kdevelop-%{git}.tar.bz2
 %else
