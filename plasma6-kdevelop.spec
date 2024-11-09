@@ -209,8 +209,6 @@ Kdevelop platform tools.
 %{_iconsdir}/hicolor/*/apps/git.*
 %{_iconsdir}/hicolor/*/actions/breakpoint.*
 %{_qtdir}/plugins/kf6/ktexttemplate/kdev_filters.so
-%{_qtdir}/qml/org/kde/kdevplatform/libkdevelopdashboarddeclarativeplugin.so
-%{_qtdir}/qml/org/kde/kdevplatform/qmldir
 %dir %{_qtdir}/plugins/kdevplatform
 %{_libdir}/libKDevPlatformInterfaces.so.*
 %{_libdir}/libKDevPlatformLanguage.so.*
