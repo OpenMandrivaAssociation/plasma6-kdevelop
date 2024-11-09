@@ -17,13 +17,13 @@
 %define dev_clang_major 60
 %define __requires_exclude /bin/zsh
 
-%define git 20240927
-%define gitbranch work/apol/kf6
-%define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
+#define git 20240927
+#define gitbranch work/apol/kf6
+#define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 Summary:	Integrated Development Environment for C++/C
 Name:		plasma6-kdevelop
-Version:	24.08.0
+Version:	24.08.3
 Release:	1
 Group:		Development/C++
 License:	GPLv2
