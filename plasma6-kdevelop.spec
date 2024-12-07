@@ -24,7 +24,7 @@
 Summary:	Integrated Development Environment for C++/C
 Name:		plasma6-kdevelop
 Version:	24.08.3
-Release:	1
+Release:	2
 Group:		Development/C++
 License:	GPLv2
 Url:		https://www.kdevelop.org/
