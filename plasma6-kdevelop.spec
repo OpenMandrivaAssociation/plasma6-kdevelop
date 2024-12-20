@@ -14,7 +14,7 @@
 %define libname %mklibname kdevplatform %{major}
 %define old_major 2
 %define old_libname %mklibname kdevplatform4 %{old_major}
-%define dev_clang_major 60
+%define dev_clang_major 61
 %define __requires_exclude /bin/zsh
 
 #define git 20240927
@@ -23,8 +23,8 @@
 
 Summary:	Integrated Development Environment for C++/C
 Name:		plasma6-kdevelop
-Version:	24.08.3
-Release:	2
+Version:	24.12.0
+Release:	1
 Group:		Development/C++
 License:	GPLv2
 Url:		https://www.kdevelop.org/
